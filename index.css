@@ -44,20 +44,23 @@ button{
 	font-size: 15px;
 	font-weight: bold;
 	/* text-align: center; */
-    text-shadow: 1px 1px 0px rgb(145, 145, 145);
     padding: 6px;
-    box-shadow: 3px 3px 0px rgb(0, 0, 0);
     border-radius: 50px;
+    text-shadow: 1px 1px 0px rgb(145, 145, 145);
+    box-shadow: 2px 2px 0px rgb(105, 105, 105);
+    border: 1px solid rgb(68, 68, 68);
+    text-decoration: none;
+
 }
 button:hover{
-    color:#50ff40;
-    background-color:rgb(31, 8, 233) ;
-	font-size: 15px;
-    text-shadow: 1px 1px 0px rgb(145, 145, 145);
-    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    /* color: blue; */
+    /* background-color:rgb(75, 75, 75) ; */
+    font-size: 16px;
+    box-shadow: 2px 2px 0px rgb(29, 255, 225);
 }
 .header{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 3em;
 }
