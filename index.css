@@ -24,6 +24,10 @@ h1,h2{
     margin:auto;
     width: 30%;
 }
+h2{
+    color: blue;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
 .titleBack{
     color:rgb(58, 240, 41);
     text-shadow: 1.5px 1.5px 0px #000000;
